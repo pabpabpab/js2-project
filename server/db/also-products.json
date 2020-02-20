@@ -1,0 +1,46 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 457,
+    "product_name": "Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  }
+]

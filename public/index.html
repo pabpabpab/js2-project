@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/861e78b781.js" crossorigin="anonymous" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <header-section ref="header"></header-section>
+        <top-navigation></top-navigation>
+        <component :is="currentPage" ref="dynamic"></component>
+        <feedback-section></feedback-section>
+        <bottom-section></bottom-section>
+        <footer-section></footer-section>
+        <message ref="message"></message>
+        <error ref="error"></error>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--Элементы хедера-->
+    <script src="components/elements/SearchComp.js"></script>
+    <script src="components/elements/CartComp.js"></script>
+    <!--Элементы каталога товаров-->
+    <script src="components/elements/BreadCrumbsComp.js"></script>
+    <script src="components/elements/SizeFilterComp.js"></script>
+    <script src="components/elements/PriceFilterComp.js"></script>
+    <script src="components/elements/SortComp.js"></script>
+    <script src="components/elements/ProductQuantityPerPageComp.js"></script>
+    <script src="components/elements/PaginationComp.js"></script>
+    <script src="components/elements/ProducComp.js"></script>
+    <!--Элемент страницы одного товара-->
+    <script src="components/elements/SingleProductComp.js"></script>
+    <!--Элементы страницы козрины-->
+    <script src="components/elements/CartPageBodyComp.js"></script>
+    <script src="components/elements/CheckoutComp.js"></script>
+    <!--Элементы общие на страницах-->
+    <script src="components/elements/FeedbackComp.js"></script>
+    <script src="components/elements/MessageComp.js"></script>
+    <script src="components/elements/ErrorComp.js"></script>
+    <!--Сквозные блоки на страницах-->
+    <script src="components/blocks/HeaderComp.js"></script>
+    <script src="components/blocks/TopNavComp.js"></script>
+    <script src="components/blocks/FeedbackSectionComp.js"></script>
+    <script src="components/blocks/BottomComp.js"></script>
+    <script src="components/blocks/FooterComp.js"></script>
+    <!--Страницы контейнеры-->
+    <script src="components/pages/MainPageComp.js"></script>
+    <script src="components/pages/CatalogPageComp.js"></script>
+    <script src="components/pages/ProductPageComp.js"></script>
+    <script src="components/pages/CartPageComp.js"></script>
+    <script src="components/pages/CheckoutPageComp.js"></script>
+    <!--app-->
+    <script src="js/main.js"></script>
+</body>
+</html>

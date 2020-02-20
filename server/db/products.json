@@ -1,0 +1,680 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 457,
+    "product_name": "Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },    
+  {
+    "id_product": 789,
+    "product_name": "Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 323,
+    "product_name": "Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 434,
+    "product_name": "Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 956,
+    "product_name": "Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 678,
+    "product_name": "Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id_product": 2124,
+    "product_name": "X-Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2457,
+    "product_name": "X-Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2123,
+    "product_name": "X-Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2456,
+    "product_name": "X-Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2789,
+    "product_name": "X-Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2323,
+    "product_name": "X-Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2434,
+    "product_name": "X-Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2956,
+    "product_name": "X-Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 2678,
+    "product_name": "X-Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id_product": 3124,
+    "product_name": "Y-Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3457,
+    "product_name": "Y-Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3123,
+    "product_name": "Y-Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3456,
+    "product_name": "Y-Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3789,
+    "product_name": "Y-Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3323,
+    "product_name": "Y-Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3434,
+    "product_name": "Y-Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3956,
+    "product_name": "Y-Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 3678,
+    "product_name": "Y-Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id_product": 4124,
+    "product_name": "Z-Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4457,
+    "product_name": "Z-Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4123,
+    "product_name": "Z-Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4456,
+    "product_name": "Z-Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4789,
+    "product_name": "Z-Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4323,
+    "product_name": "Z-Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4434,
+    "product_name": "Z-Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4956,
+    "product_name": "Z-Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 4678,
+    "product_name": "Z-Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "id_product": 5124,
+    "product_name": "U-Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5457,
+    "product_name": "U-Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5123,
+    "product_name": "U-Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5456,
+    "product_name": "U-Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5789,
+    "product_name": "U-Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5323,
+    "product_name": "U-Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5434,
+    "product_name": "U-Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5956,
+    "product_name": "U-Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 5678,
+    "product_name": "U-Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id_product": 6124,
+    "product_name": "Q-Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6457,
+    "product_name": "Q-Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6123,
+    "product_name": "Q-Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6456,
+    "product_name": "Q-Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6789,
+    "product_name": "Q-Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6323,
+    "product_name": "Q-Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6434,
+    "product_name": "Q-Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6956,
+    "product_name": "Q-Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 6678,
+    "product_name": "Q-Blueberry people t-shirt",
+    "price": 80,
+    "size": "S",
+    "size_number": 3,
+    "color": "Blue",
+    "img": ["product.png", "product_2.png", "product_3.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  }
+]

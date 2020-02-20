@@ -1,0 +1,386 @@
+
+.header
+  border: 1px solid #ececec
+  background-color: #ffffff
+  &_content
+    @extend .dflex
+    justify-content: space-between
+  &__left
+    @extend .dflex
+    height: 100px
+  &__right
+    @extend .dflex
+    justify-content: flex-end
+  &__right__cart
+    @extend .dflex
+    padding-right: 26px
+    height: 100px
+    position: relative
+  &__right__cart:hover .drop_cart
+    display: block
+  &__right__myaccount
+    @extend .dflex
+    height: 100px
+  &__form
+    @extend .dflex
+    margin-left: 37px
+    border: 1px solid #e6e6e6
+
+
+.logo_text
+  margin-left: 13px
+  +font(27px,#222,400)
+  text-transform: uppercase
+  letter-spacing: 0.68px
+  &::after
+    color: $siteColor
+    content: "D"
+
+
+.browse
+  padding: 13px 9px 13px 15px
+  +font(14px,#222,300)
+  line-height: 14px
+  letter-spacing: 0.35px
+  background-color: #f9f9f9
+  border-right: 1px solid #e6e6e6
+  cursor: pointer
+  position: relative
+  &::after
+    content: '\25BC'
+    padding-left: 0.5em
+    font-size: 10px
+    color: #a0a0a0
+  &:hover .drop_browse
+    display: flex
+
+
+.searched_text_input
+  outline: 0
+  border: 0
+  width: 281px
+  padding: 13px 16px 12px 16px
+  &::-webkit-input-placeholder
+    color: #d0d0d0
+  &::-moz-placeholder
+    color: #d0d0d0
+  &:-moz-placeholder
+    color: #d0d0d0
+  &:-moz-placeholder
+    color: #d0d0d0
+
+
+
+.search_button
+  @extend .dflex
+  outline: 0
+  border: 0
+  border-left: 1px solid #e6e6e6
+  width: 37px
+  height: 43px
+  +font(14px,#a4a4a4,400)
+  background-color: #fff
+  cursor: pointer
+  justify-content: center
+  transition: background-color 0.3s ease-out 0s
+  &:hover
+    color: #909090
+    background-color: #f9f9f9
+  &:active
+    box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.1)
+  &:hover .search-rotate
+    -webkit-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+
+.search-rotate
+  transition: transform 0.5s cubic-bezier(.5, 0, 1, .5)
+
+
+
+
+
+.cart
+  transition: transform 0.3s ease-out 0s
+  &:hover
+    -webkit-transform: rotate(10deg)
+    -ms-transform: rotate(10deg)
+    transform: rotate(10deg)
+  &_link
+    display: block
+    position: relative
+  &_quantity
+    position: absolute
+    top: -14px
+    right: -13px
+    background-color: #f16d7f
+    color: #fff
+    font-size: 12px
+    border-radius: 10px
+    min-width: 16px
+    height: 16px
+    padding: 2px
+    text-align: center
+    line-height: 17px
+
+
+
+.link_button
+  background-color: $siteColor
+  padding: 12px 12px 12px 19px
+  +font(15px,#fff,400)
+  letter-spacing: 0.38px
+  transition: box-shadow 0.2s ease-out 0s
+  &:hover
+    box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.5)
+  &:active
+    box-shadow: none
+
+
+.my_account_arrow::after
+  content: '\25BC'
+  padding-left: 0.5em
+  font-size: 10px
+
+
+
+
+
+.drop_cart
+  display: none
+  padding: 5px 17px 20px 17px
+  +border-radius(5px)
+  background-color: #fff
+  border: 1px solid #ececec
+  position: absolute
+  left: -10px
+  top: 85px
+  z-index: 3
+  &::before
+    content: ''
+    display: block
+    width: 12px
+    height: 12px
+    background-color: #fff
+    position: absolute
+    transform: rotate(45deg)
+    border-top: 1px solid #e8e8e8
+    border-left: 1px solid #e8e8e8
+    top: -7.5px
+    left: 22px
+  &_empty
+    width: 250px
+    height: 210px
+    text-align: center
+    line-height: 210px
+  &_product
+    @extend .dflex
+    padding: 16px 0
+    border-bottom: 1px solid #ededed
+  &_product_info
+    width: 140px
+    height: 85px
+    padding: 7px 13px
+    box-sizing: border-box
+  &_product_img
+    width: 72px
+  &_product_img:hover
+    outline: 1px solid #ddd
+  &_product_name
+    +font(12px,#222,700)
+    text-transform: uppercase
+    display: block
+  &_product_name:hover
+    color: $siteColor
+  &_stars
+    position: relative
+    height: 35px
+    margin-top: -3px
+  &_stars::before
+    content: '\2605\2605\2605\2605\2605'
+    display: block
+    position: absolute
+    +font(14px,#e4af48,400)
+    text-transform: uppercase
+    left: 0
+    top: 7px
+    width: 52px
+    overflow: hidden
+  &_stars::after
+    content: '\2606'
+    display: block
+    position: absolute
+    +font(14px,#e4af48,700)
+    background-color: #fff
+    text-transform: uppercase
+    left: 52px
+    top: 7px
+    width: 6px
+    overflow: hidden
+    transform: scaleY(-1) rotate(180deg)
+  &_quantity_price
+    @extend .dflex
+    line-height: 8px
+    box-sizing: border-box
+  &_quantity
+    +font(12px,$siteColor,700)
+    text-transform: uppercase
+  &_price
+    +font(12px,$siteColor,700)
+    text-transform: uppercase
+    margin-left: 20px
+    position: relative
+  &_price::before
+    content: '\2716'
+    display: block
+    position: absolute
+    +font(9px,$siteColor,400)
+    text-transform: uppercase
+    left: -14px
+    top: 0.5px
+  &_closer
+    position: relative
+    width: 15px
+    height: 15px
+    +border-radius(8px)
+    background-color: #c0c0c0
+    top: -5px
+    transition: background-color 0.3s
+  &_closer:hover
+    background-color: #999
+  &_closer::before
+    content: '\2716'
+    display: block
+    position: absolute
+    +font(10px,#fff,700)
+    top: 0.5px
+    left: 3px
+  &_totalPrice
+    @extend .dflex
+    justify-content: space-between
+  &_totalPrice_left,
+  &_totalPrice_right
+    +font(16px,#222,700)
+    text-transform: uppercase
+    line-height: 12px
+    margin: 19px 0
+  &_checkOut
+    display: block
+    margin: 12px 0
+    border: 1px solid $siteColor
+    +font(14px,$siteColor,700)
+    text-transform: uppercase
+    width: 225px
+    line-height: 50px
+    text-align: center
+    transition: color 0.3s, background-color 0.3s
+  &_checkOut:hover
+    background-color: $siteColor
+    color: #fff
+  &_goToCart
+    display: block
+    border: 1px solid #eaeaea
+    +font(14px,#4a4a4a,700)
+    text-transform: uppercase
+    width: 225px
+    line-height: 50px
+    text-align: center
+    transition: color 0.3s, background-color 0.3s
+  &_goToCart:hover
+    background-color: #555
+    color: #fff
+
+
+
+
+
+
+
+
+
+
+
+.nav__content
+  @extend .dflex
+  height: 51px
+  justify-content: center
+  .nav__ul
+    list-style-type: none
+    display: flex
+
+.nav__li
+  position: relative
+  &:hover .drop
+    display: flex
+  &__link
+    display: block
+    padding: 18px 23px 13px 23px
+    border-bottom: 3px solid #fff
+    box-sizing: border-box
+    +font(14px,#222,700)
+    text-transform: uppercase
+    transition: border-bottom 0.2s ease-out 0s
+  &__link:hover
+    border-bottom: 3px solid $siteColor
+
+
+.drop
+  +border-radius(5px)
+  background-color: #fff
+  padding: 12px 20px
+  border: 1px solid #ececec
+  display: none
+  position: absolute
+  top: 43px
+  z-index: 3
+  &::before
+    content: ''
+    display: block
+    width: 10px
+    height: 10px
+    background-color: #fff
+    position: absolute
+    top: -6px
+    left: 35px
+    transform: rotate(45deg)
+    border-top: 1px solid #e8e8e8
+    border-left: 1px solid #e8e8e8
+  &_last
+    right: 0
+  &_last::before
+    left: auto
+    right: 50px
+  &__h5
+    +font(14px,#232323,400)
+    text-transform: uppercase
+    border-bottom: 1px solid #e8e8e8
+    padding-bottom: 8px
+    width: 235px
+    margin-bottom: 8px
+    margin-top: 8px
+    cursor: default
+  &__ul
+    list-style-type: none
+  &__link
+    +font(14px,#646464,400)
+    line-height: 28px
+  &__link:hover
+    color: $siteColor
+  &__flex
+    margin-right: 46px
+  &__flex:last-child
+    margin-right: 0
+  &_browse
+    top: 39px
+  &_browse::before
+    top: -6px
+    left: 54px
+
+
+
+
+
+
+

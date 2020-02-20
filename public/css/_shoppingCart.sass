@@ -1,0 +1,254 @@
+$imgHeight: 115px
+$shoppingCartItemHeight: 162px
+
+
+.shoppingCart
+  margin-top: 90px
+  &__header
+    @extend .dflex
+    border-bottom: 1px solid #eaeaea
+
+.shoppingCartTile
+  +font(13px,#222,700)
+  text-transform: uppercase
+  text-align: center
+  line-height: 9px
+  padding-bottom: 20px
+
+
+
+
+.shoppingCart__item
+  @extend .dflex
+  height: $shoppingCartItemHeight
+  padding: 21px 0
+  box-sizing: border-box
+  border-bottom: 1px solid #eaeaea
+  &__productDetails
+    width: 37%
+    @extend .dflex
+  &__unitPrice
+    width: 14%
+    @extend .dflex
+    justify-content: center
+  &__quantity
+    width: 14%
+    @extend .dflex
+    justify-content: center
+  &__quantity_input
+    width: 54px
+    height: 30px
+    +font(13px,#656565,400)
+    text-align: center
+    padding: 8px 10px
+    border: 1px solid #e0e0e0
+    box-sizing: border-box
+    outline: 0
+    -moz-appearance: textfield
+    transition: border 0.9s
+  &__quantity_input::-webkit-inner-spin-button
+    display: none
+  &__quantity_input:hover,
+  &__quantity_input:focus
+    border: 1px solid #777
+  &__shipping
+    width: 14%
+    @extend .dflex
+    justify-content: center
+  &__subtotal
+    width: 14%
+    @extend .dflex
+    justify-content: center
+  &__action
+    width: 7%
+    @extend .dflex
+    justify-content: center
+
+
+.shoppingCart__productImg
+  height: 115px
+.shoppingCart__productImg__link
+  display: block
+  height: $imgHeight
+  background-color: #e1f0fa
+  padding: 1px
+  transition: box-shadow 0.2s
+.shoppingCart__productImg__link:hover
+  box-shadow: 0 0 13px 3px rgba(150,150,150,0.3)
+.shoppingCart__productParametersBox
+  display: block
+  height: $imgHeight
+  padding: 8px 16px
+  box-sizing: border-box
+.shoppingCart__productName
+  +font(13px,#222,400)
+  line-height: 9px
+  text-transform: uppercase
+  transition: color 0.2s
+.shoppingCart__productName:hover
+  color: $siteColor
+.shoppingCart__productColor
+  margin-top: 38px
+  +font(13px,#575757,400)
+  line-height: 9px
+.shoppingCart__productColor__value
+  +font(13px,#6f6e6e,300)
+  line-height: 9px
+.shoppingCart__productSize
+  margin-top: 9px
+  +font(13px,#575757,400)
+  line-height: 9px
+.shoppingCart__productSize__value
+  +font(13px,#6f6e6e,300)
+  line-height: 9px
+
+
+.shoppingCart_clear_and_continue
+  @extend .dflex
+  margin-top: 44px
+  justify-content: space-between
+.shoppingCart_clear,
+.shoppingCart_continue
+  display: block
+  padding: 18px 38px
+  border: 1px solid #eaeaea
+  +font(14px,#4a4a4a,700)
+  text-transform: uppercase
+  transition: color 0.3s, background-color 0.3s
+.shoppingCart_clear:hover,
+.shoppingCart_continue:hover
+  color: #fff
+  background-color: #4a4a4a
+
+
+
+
+.shoppingCart_address_discount_grandTotal
+  display: flex
+  align-items: flex-start
+  margin-top: 63px
+  margin-bottom: 79px
+.shoppingCart_address,
+.shoppingCart_discount
+  width: 390px
+  padding-right: 35px
+  box-sizing: border-box
+.shoppingCart_h5
+  +font(16px,#222,700)
+  line-height: 12px
+  text-transform: uppercase
+.shoppingCart_discount_text
+  +font(14px,#000,300)
+  line-height: 10px
+  margin-top: 26px
+
+
+
+
+.shipping_input
+  margin-top: 20px
+  +font(13px,#4a4a4a,300)
+  width: 355px
+  padding: 14px 16px
+  box-sizing: border-box
+  border: 1px solid #eaeaea
+  transition: border 0.9s
+  &:hover,
+  &:focus
+    border: 1px solid #777
+  &::-webkit-input-placeholder
+    color: #bbb
+  &::-moz-placeholder
+    color: #bbb
+  &:-moz-placeholder
+    color: #bbb
+  &:-moz-placeholder
+    color: #bbb
+
+
+
+
+.shippingCountries_input
+    outline: 0
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    &::-ms-expand
+      display: none
+    &_wrapper
+      position: relative
+    &_wrapper::after
+      content: '\25BC'
+      +font(13px,#bdbdbd,400)
+      display: block
+      position: absolute
+      width: 32px
+      height: 45px
+      line-height: 45px
+      text-align: center
+      box-sizing: border-box
+      top: 21px
+      right: 0
+      z-index: 5
+      pointer-events: none
+
+
+
+
+
+.shippingSubmit
+  +font(11px,#4a4a4a,700)
+  background-color: #fff
+  text-transform: uppercase
+  padding: 12px 15px
+  margin-top: 23px
+  border: 1px solid #eaeaea
+  transition: color 0.3s, background-color 0.3s
+  &:hover
+    background-color: #4a4a4a
+    color: #fff
+
+.shoppingCart_grandTotal
+  width: 360px
+  height: 214px
+  background-color: #f5f3f3
+  padding: 41px
+  box-sizing: border-box
+  text-align: right
+  &_subTotal
+    +font(11px,#4a4a4a,400)
+    text-transform: uppercase
+    line-height: 8px
+  &_subTotal_value
+    margin-left: 20px
+  &_grandTotal
+    +font(16px,#222,700)
+    line-height: 12px
+    text-transform: uppercase
+    padding: 14px 0 22px 0
+    border-bottom: 1px solid #e2e2e2
+  &_grandTotal_value
+    color: $siteColor
+    margin-left: 20px
+
+
+
+.shoppingCart_proceed
+  display: inline-block
+  margin-top: 17px
+  padding: 16px 40px
+  box-sizing: border-box
+  +font(16px,#fff,700)
+  text-transform: uppercase
+  background-color: $siteColor
+  border: none
+  outline: none
+  cursor: pointer
+  white-space: nowrap
+  transition: box-shadow 0.2s
+  &:hover
+    box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.5)
+  &:active
+    box-shadow: none
+
+

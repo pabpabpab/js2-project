@@ -1,0 +1,245 @@
+.promo
+  background-color: #e8e8e8
+  &__left
+    border-left: 12px solid $siteColor
+    padding-left: 12px
+  &__content
+    @extend .dflex
+    height: 614px
+    background-image: url(../img/promo_back.png)
+    justify-content: space-between
+    background-position: 0 -51px
+
+
+h2
+  +font(60px,#222,700)
+  text-transform: uppercase
+  line-height: 41px
+  letter-spacing: 0
+h3
+  +font(40px,#222,700)
+  text-transform: uppercase
+  line-height: 29px
+  letter-spacing: 0
+  margin-top: 18px
+h3::after
+  content: ' FASHION'
+  color: $siteColor
+
+
+.hot
+  margin-top: 78px
+  &__content
+    display: flex
+    justify-content: space-between
+  &__one
+    width: 560px
+    margin-top: 20px
+    position: relative
+  &__first
+    background-image: url(../img/hot_deal_man_back.png)
+    height: 542px
+  &__second
+    background-image: url(../img/hot_deal_wallet_back.png)
+    height: 261px
+  &__third
+    background-image: url(../img/hot_deal_women_back.png)
+    height: 261px
+  &__fourth
+    background-image: url(../img/hot_deal_child_back.png)
+    height: 542px
+  &__sticker
+    position: absolute
+    left: 0
+    top: 26px
+    padding: 16px 18px
+    background-color: #fff
+  &__sticker__text1
+    +font(18px,#222,700)
+    line-height: 12px
+    text-transform: uppercase
+    letter-spacing: 0
+  &__sticker__text2
+    +font(30px,$siteColor,700)
+    line-height: 22px
+    text-transform: uppercase
+    margin-top: 15px
+
+
+
+
+.featured
+  margin-top: 100px
+  &__head
+    text-align: center
+  &__head__text
+    +font(14px,#9f9f9f,400)
+    line-height: 12px
+    margin-top: 16px
+  &__content
+    margin-top: 20px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+h4
+  +font(30px,#222,700)
+  line-height: 20px
+
+.white_cart_img
+  margin-right: 8px
+
+
+.featured__one
+  margin-top: 39px
+  position: relative
+  width: 262px
+  height: 364px
+  background-color: #ede9e6
+  transition: box-shadow 0.3s, transform 0.3s
+  &:hover
+    transform: scale(1.03)
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+  &:hover .featured__one__img
+    filter: brightness(40%)
+  &:hover .featured__one__whiteCart__link
+    opacity: 1
+  &__img
+    width: 100%
+    transition: filter 0.3s
+  &__whiteCart__link
+    position: absolute
+    top: 98px
+    left: 57px
+    +font(14px,#fff,700)
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 9px 17px
+    border: 1px solid #fff
+    opacity: 0
+    transition: box-shadow 0.3s, opacity 0.3s
+  &__whiteCart__link:hover
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.8)
+  &__textdiv
+    position: absolute
+    left: 0
+    bottom: 0
+    height: 85px
+    width: 262px
+    box-sizing: border-box
+    background-color: #fff
+    padding: 20px 14px
+  &__nameLink
+    +font(14px,#222,700)
+    line-height: 12px
+    text-transform: uppercase
+    display: block
+  &__price
+    +font(16px,$siteColor,700)
+    line-height: 12px
+    text-transform: uppercase
+    margin-top: 17px
+
+
+
+.good_quantity_control
+  position: absolute
+  top: 148px
+  left: 61px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 0
+  border: 1px solid #fff
+  opacity: 0
+  transition: box-shadow 0.3s, opacity 0.3s
+  &:hover
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.8)
+  &__btn_left
+    font-size: 16px
+    color: #fff
+    font-weight: 700
+    padding: 9px 17px
+    border-right: 1px solid #fff
+    cursor: pointer
+  &__btn_right
+    font-size: 16px
+    color: #fff
+    font-weight: 700
+    padding: 9px 17px
+    border-left: 1px solid #fff
+    cursor: pointer
+  &__value
+    font-size: 16px
+    color: #fff
+    font-weight: 700
+    padding: 9px 17px
+.featured__one:hover .good_quantity_control
+  opacity: 1
+
+
+
+
+
+.browse_all
+  margin-top: 58px
+  text-align: center
+  &_arrow::after
+    content: '\2192'
+    padding-left: 0.5em
+    font-size: 17px
+    font-weight: 700
+
+
+.discount
+  margin-top: 113px
+  display: flex
+  background-color: #222224
+  width: $siteWidth
+  height: 529px
+  &__left
+    width: 767px
+    background-image: url(../img/discount_back.png)
+    padding-left: 36px
+    padding-top: 144px
+  &__h2
+    color: $siteColor
+    font-size: 54px
+  &__h2::before
+    content: '30% '
+    color: #ffffff
+  &__h3
+    color: #ffffff
+    font-size: 32px
+    margin-top: 13px
+  &__h3::after
+    content: ''
+  &__right
+    width: 373px
+    padding: 48px 43px 5px 36px
+    box-sizing: border-box
+
+
+
+
+.working_conditions
+  width: 295px
+  height: 155px
+  padding: 7px 0 61px 75px
+  box-sizing: border-box
+  background-position: top left
+  background-repeat: no-repeat
+  &_head
+    +font(20px,#fbfbfb,700)
+    line-height: 15px
+    margin-bottom: 16px
+  &_text
+    +font(14px,#fbfbfb,300)
+    line-height: 24px
+  &_delivery
+    background-image: url(../img/delivery_back.svg)
+  &_percent
+    background-image: url(../img/percent_back.svg)
+  &_quality
+    background-image: url(../img/quality_back.svg)

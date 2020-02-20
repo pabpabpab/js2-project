@@ -1,0 +1,90 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Mango people t-shirt",
+    "price": 50,
+    "size": "L",
+    "size_number": 5,
+    "color": "White",
+    "img": ["featured_one_back_first.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 457,
+    "product_name": "Papaya people t-shirt",
+    "price": 35,
+    "size": "S",
+    "size_number": 3,
+    "color": "Red",
+    "img": ["featured_one_back_second.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Kiwi people t-shirt",
+    "price": 55,
+    "size": "M",
+    "size_number": 4,
+    "color": "Dark blue",
+    "img": ["featured_one_back_third.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Lemon people t-shirt",
+    "price": 60,
+    "size": "XL",
+    "size_number": 6,
+    "color": "White",
+    "img": ["featured_one_back_fourth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 789,
+    "product_name": "Nectarine people t-shirt",
+    "price": 65,
+    "size": "XS",
+    "size_number": 2,
+    "color": "Black",
+    "img": ["featured_one_back_fifth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 323,
+    "product_name": "Banana people t-shirt",
+    "price": 70,
+    "size": "XXL",
+    "size_number": 7,
+    "color": "Gray",
+    "img": ["featured_one_back_sixth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 434,
+    "product_name": "Lime people t-shirt",
+    "price": 75,
+    "size": "XXS",
+    "size_number": 1,
+    "color": "Yellow",
+    "img": ["featured_one_back_seventh.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  },
+  {
+    "id_product": 956,
+    "product_name": "Cherry people t-shirt",
+    "price": 45,
+    "size": "M",
+    "size_number": 4,
+    "color": "Cherry",
+    "img": ["featured_one_back_eighth.png"],
+    "material": "cotton",
+    "designer": "Binburhan"
+  }
+]
