@@ -1,16 +1,28 @@
-Одностраничный, используя динамический компонент. 
+Single-page, using a dynamic component. 
 
-Запуск: 
-npm i
-nodemon server/server.js
-localhost: 3000
 
-С вебпаком не получилось, хотя переделывал в экспортируемые объекты, импорт экспорт прописал, шторм не ругался, в конфиге для картинок путь переделал, в остальном структуру проекта сделал как на уроке 8, но все равно стопорится сборка видимо после index.html (копирует картинки куда надо, но это только картинки главной страницы).
+Launch: 
+npm i; 
+nodemon server/server.js;  
+localhost: 3000; 
 
-Что есть:
-1. Главная, 
-2. Каталог: добавить в корзину, фильтры размер и цена (совместные), сортировка, выбор кол-ва товаров на страницу, пагинация (не разъезжается когда много страниц). 
-3. Страница одного товара: запрос по id на сервер, слайдер фото, добавить в корзину.
-4. Страница корзины и оформление заказа (checkout) с отправкой на сервер, далее по кнопке Proceed на втором шаге данные заказа считываются с сервера.
-5. В хедере строка поиска работает с любой страницы. 
-6. Блок отзывов на всех страницах.
+
+
+
+What is it:
+
+1. Main, 
+
+2. Catalog: add to cart, filters size and price (joint), sorting, selecting the number of products per page, 
+
+pagination (does not disperse when there are many pages). 
+
+3. One product page: request by id to the server, photo slider, add to cart.
+
+4. The shopping cart page and checkout with sending to the server, then click the Proceed button, on the second step 
+
+order data is read from the server.
+
+5. In the header, the search bar works from any page. 
+
+6. Feedback block at the bottom of all pages.
