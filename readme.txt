@@ -42,4 +42,4 @@ order data is read from the server.
 6. Feedback block at the bottom of all pages.
 
 
-I could not make the build with webpack, although I converted it to exported objects, I did the import export, Webstorm was ok, I changed the path for images in the config, the other project structure was like in lesson 8, but the build collapses most likely after index.html (it copies images where necessary, but these are only images of the main page).
+I could not make the build with webpack, although I converted it to exported objects, I did the import export, Webstorm was ok, I changed the path for images in the config, the other project structure was like in lesson 8, but the build collapses most likely after main page (it copies images where necessary, but these are only images of the main page).
